@@ -1,0 +1,3 @@
+# This is a React/Vite project. 
+# dependencies are managed in package.json.
+# requirements.txt is provided here for deployment tool compatibility.
