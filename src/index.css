@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
 
 :root {
-  --bg-color: #050505;
-  --text-color: #ffffff;
+  --bg-color: #030303;
+  --text-color: #f8fafc;
   --primary-accent: #6366f1;
   --secondary-accent: #a855f7;
-  --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --tertiary-accent: #ec4899;
+  --glass-bg: rgba(15, 23, 42, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
   --nav-height: 80px;
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 * {
@@ -64,10 +65,11 @@ ul {
 
 .glass {
   background: var(--glass-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--glass-border);
   border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .gradient-text {
